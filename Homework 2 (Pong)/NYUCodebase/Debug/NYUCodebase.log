@@ -1,0 +1,9 @@
+﻿  main.cpp
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(144): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(145): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(149): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(228): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(229): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113\project_template\windows\homework 2 (pong)\nyucodebase\main.cpp(286): warning C4305: 'argument': truncation from 'double' to 'float'
+  NYUCodebase.vcxproj -> C:\Users\mikez\Documents\GitHub\CS3113\project_template\Windows\Homework 2 (Pong)\Debug\NYUCodebase.exe
