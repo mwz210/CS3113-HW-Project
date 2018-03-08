@@ -1,0 +1,38 @@
+﻿  Vector3.cpp
+  TitleScreen.cpp
+  Text.cpp
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\text.cpp(53): warning C4018: '<': signed/unsigned mismatch
+  SheetSprite.cpp
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\sheetsprite.cpp(27): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\sheetsprite.cpp(23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ShaderProgram.cpp
+  Matrix.cpp
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(148): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(149): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(165): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(166): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(167): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(168): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(172): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(173): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(175): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(213): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\matrix.cpp(214): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Player.cpp
+  GameState.cpp
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\gamestate.cpp(16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\gamestate.cpp(21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\gamestate.cpp(25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\gamestate.cpp(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 3 (space invaders)\nyucodebase\gamestate.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  GameMode.cpp
+  GameLevel.cpp
+  Enemies.cpp
+  Bullet.cpp
+  Background.cpp
+  Generating Code...
+  NYUCodebase.vcxproj -> C:\Users\mikez\Documents\GitHub\CS3113-HW-Project\Homework 3 (Space Invaders)\Debug\NYUCodebase.exe
