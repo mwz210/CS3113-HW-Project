@@ -82,6 +82,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SatCollision.cpp" />
     <ClCompile Include="ShaderProgram.cpp" />
     <ClCompile Include="Vector3.cpp" />
   </ItemGroup>
@@ -92,6 +93,7 @@
     <ClInclude Include="Ground.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="SatCollision.h" />
     <ClInclude Include="ShaderProgram.h" />
     <ClInclude Include="Vector3.h" />
   </ItemGroup>

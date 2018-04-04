@@ -1,24 +1,19 @@
-﻿  main.cpp
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(77): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(86): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(82): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(112): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(126): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(126): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(135): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(164): warning C4018: '<': signed/unsigned mismatch
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(165): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(169): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(170): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(227): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(228): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(232): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(233): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(289): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(290): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(310): warning C4305: '+=': truncation from 'double' to 'float'
-c:\users\mikez\documents\github\cs3113\project_template\windows\homework 4 (platformer)\nyucodebase\main.cpp(313): warning C4305: '=': truncation from 'double' to 'float'
-  NYUCodebase.vcxproj -> C:\Users\mikez\Documents\GitHub\CS3113\project_template\Windows\Homework 4 (Platformer)\Debug\NYUCodebase.exe
+﻿  SatCollision.cpp
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(21): error C2039: 'sort': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\vector(15): note: see declaration of 'std'
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(21): error C3861: 'sort': identifier not found
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(22): error C2039: 'sort': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\vector(15): note: see declaration of 'std'
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(22): error C3861: 'sort': identifier not found
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(32): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(60): warning C4018: '<': signed/unsigned mismatch
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(78): warning C4018: '<': signed/unsigned mismatch
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(98): error C2039: 'sort': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\vector(15): note: see declaration of 'std'
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(98): error C3861: 'sort': identifier not found
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(102): warning C4018: '<': signed/unsigned mismatch
+c:\users\mikez\documents\github\cs3113-hw-project\homework 4 (platformer)\nyucodebase\satcollision.cpp(110): warning C4018: '<': signed/unsigned mismatch
