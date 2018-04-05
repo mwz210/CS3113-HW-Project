@@ -11,6 +11,8 @@
 	#define RESOURCE_FOLDER "NYUCodebase.app/Contents/Resources/"
 #endif
 
+#define FIXED_TIMESTEP 0.01666666f
+#define MAX_TIMESTEPS 6
 #include "Matrix.h"
 #include "ShaderProgram.h"
 #define STB_IMAGE_IMPLEMENTATION
@@ -31,6 +33,7 @@ Matrix viewMatrix;
 Player player;
 Other object1;
 Other object2;
+float accumulator = 0.0f;
 
 
 GLuint LoadTexture(const char *filepath) 
@@ -233,9 +236,18 @@ int main(int argc, char *argv[])
 		float ticks = (float)SDL_GetTicks() / 1000.0f;
 		float elapsed = ticks - lastFrameTicks;
 		lastFrameTicks = ticks;
+		elapsed += accumulator;
+		if (elapsed < FIXED_TIMESTEP) {
+			accumulator = elapsed;
+			continue;
+		}
+		while (elapsed >= FIXED_TIMESTEP) {
+			Update(FIXED_TIMESTEP);
+			elapsed -= FIXED_TIMESTEP;
+		}
+		accumulator = elapsed;
 		ProcessEvents(elapsed);
 		glClear(GL_COLOR_BUFFER_BIT);
-		Update(elapsed);
 		Render();
 	}
 	Cleanup();
