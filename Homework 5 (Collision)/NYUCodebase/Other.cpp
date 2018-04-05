@@ -3,8 +3,8 @@
 Other::Other() {
 	this->isStatic = false;
 	this->entityType = ENTITY_Other;
-	this->size.x = 1.0f;
-	this->size.y = 1.0f;
+	this->size.x = 2.0f;
+	this->size.y = 2.0f;
 
 	Vector3 topLeft;
 	Vector3 topRight;

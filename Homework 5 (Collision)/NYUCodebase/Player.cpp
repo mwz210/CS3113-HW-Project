@@ -13,7 +13,7 @@ Player::Player() {
 	Vector3 bottomRight;
 
 	bottomLeft.x = -0.5f * this->size.x;
-	bottomLeft.y = -0.5 * this->size.y;
+	bottomLeft.y = -0.5f * this->size.y;
 	bottomRight.x = 0.5f * this->size.x;
 	bottomRight.y = -0.5f * this->size.y;
 
@@ -22,16 +22,11 @@ Player::Player() {
 	topRight.x = 0.5f * this->size.x;
 	topRight.y = 0.5f * this->size.y;
 
-	/*
-	topLeft = topLeft * this->model;
-	topRight = topRight * this->model;
-	bottomLeft = bottomLeft * this->model;
-	bottomRight = bottomRight * this->model;
-	*/
-	this->points.push_back(topLeft);
-	this->points.push_back(topRight);
 	this->points.push_back(bottomLeft);
 	this->points.push_back(bottomRight);
+	this->points.push_back(topRight);
+	this->points.push_back(topLeft);
+	
 }
 
 void Player::reset_collision_flags() {

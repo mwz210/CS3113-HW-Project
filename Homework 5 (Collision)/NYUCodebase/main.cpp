@@ -19,7 +19,6 @@
 #include "Player.h"
 #include "SatCollision.h"
 #include "Other.h"
-#define MAX_BULLETS 10
 
 bool done = false;
 SDL_Window* displayWindow;
@@ -32,11 +31,7 @@ Matrix viewMatrix;
 Player player;
 Other object1;
 Other object2;
-std::pair<float, float> penetration;
 
-std::vector<std::pair<float, float>> e1Points;
-std::vector<std::pair<float, float>> e2Points;
-std::vector<std::pair<float, float>> e3Points;
 
 GLuint LoadTexture(const char *filepath) 
 {
@@ -148,11 +143,11 @@ void Setup()
 	sprite = LoadTexture(RESOURCE_FOLDER"arne_sprites.png");
 	glBindTexture(GL_TEXTURE_2D, sprite);
 
-	object1.position.x = 5.00f;
+	object1.position.x = 4.00f;
 	object1.model.SetRotation(PI / 6);
 
-	object2.position.x = -5.00f;
-	object2.model.SetRotation(PI / 3);
+	object2.position.x = -4.00f;
+	object2.model.SetRotation(PI / 2);
 
 	// Blending
 	glEnable(GL_BLEND);
@@ -175,6 +170,10 @@ void Update(float elapsed) {
 	player.update(elapsed);
 	object1.update(elapsed);
 	object2.update(elapsed);
+	std::vector<std::pair<float, float>> e1Points;
+	std::vector<std::pair<float, float>> e2Points;
+	std::vector<std::pair<float, float>> e3Points;
+	std::pair<float, float> penetration;
 	
 	for (int i = 0; i < player.points.size(); i++) {
 		Vector3 point = player.points[i] * player.model;
@@ -192,13 +191,21 @@ void Update(float elapsed) {
 	}
 	
 	bool collided = CheckSATCollision(e1Points, e2Points, penetration);
+	bool collided2 = CheckSATCollision(e1Points, e3Points, penetration);
 	
 	if (collided) {
+		player.position.x += (penetration.first * 1.0f);
+		player.position.y += (penetration.second * 1.0f);
+
+		//object1.position.x -= (penetration.first * 0.5f);
+		//object1.position.y -= (penetration.second * 0.5f);
+	}
+	if (collided2) {
 		player.position.x += (penetration.first * 0.5f);
 		player.position.y += (penetration.second * 0.5f);
 
-		object1.position.x -= (penetration.first * 0.5f);
-		object1.position.y -= (penetration.second * 0.5f);
+		object2.position.x -= (penetration.first * 0.5f);
+		object2.position.y -= (penetration.second * 0.5f);
 	}
 
 }
