@@ -17,8 +17,7 @@
   * Within setup function, if there is function call to "state.setup1("some_file_name.txt")"
     change some_file_name.txt to "Scene_2.txt".
     
-    If there isn't the function call "state.setup("...")"  then create the function like this: 
-    state.setup1("Scene_2.txt");
+    If there isn't the function, then create the function like this: state.setup1("Scene_2.txt");
     
     Else, if the code already says "state.setup1("Scene_2.txt")", then leave as is. 
   
