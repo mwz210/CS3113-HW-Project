@@ -1,2 +1,3 @@
 # CS3113-HW-Project
-Homework and Projects from Intro to Game Programming Class
+Tandon School of Engineering, NYU
+Homework and Projects from Intro to Game Programming Class, taken Spring 2018
