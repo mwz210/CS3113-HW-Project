@@ -7,5 +7,7 @@ Spring 2018
 
 ## Materials
 Shitty Contra (platformer parody of Contra)
+
 Space Invaders
+
 Pong
